@@ -1,0 +1,34 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2CC" />
+      <stop offset="30%" stop-color="#E5C378" />
+      <stop offset="70%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#997A15" />
+    </linearGradient>
+    <linearGradient id="darkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1422" />
+      <stop offset="100%" stop-color="#080B11" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="400" rx="32" fill="url(#darkBg)" stroke="url(#goldGradient)" stroke-width="2" stroke-opacity="0.3"/>
+
+  <!-- Outer Octagonal Shield -->
+  <polygon points="200,40 340,110 340,290 200,360 60,290 60,110" stroke="url(#goldGradient)" stroke-width="6" stroke-linejoin="round" />
+  <polygon points="200,60 320,120 320,280 200,340 80,280 80,120" stroke="url(#goldGradient)" stroke-width="2" stroke-dasharray="6 6" stroke-opacity="0.5" />
+
+  <!-- Master Key Bow / Finial -->
+  <circle cx="200" cy="145" r="42" stroke="url(#goldGradient)" stroke-width="7" fill="#0E1422"/>
+  <circle cx="200" cy="145" r="20" stroke="url(#goldGradient)" stroke-width="4"/>
+
+  <!-- Center Diamond Star -->
+  <path d="M200 132 L204 142 L214 145 L204 148 L200 158 L196 148 L186 145 L196 142 Z" fill="url(#goldGradient)" />
+
+  <!-- Key Shaft -->
+  <line x1="200" y1="187" x2="200" y2="305" stroke="url(#goldGradient)" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Key Teeth / Architectural Flutes -->
+  <path d="M200 245 H240 V260 H200 M200 275 H232 V290 H200" stroke="url(#goldGradient)" stroke-width="7" stroke-linecap="square"/>
+</svg>
